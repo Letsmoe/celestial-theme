@@ -1,0 +1,25 @@
+{
+  "name": "celestial-themes",
+  "displayName": "Celestial Theme (High Contrast)",
+  "description": "Celestial is a clean, high-contrast light and dark theme featuring rich purples and bright blues for clear, easy-to-read code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+	"publisher": "Letsmoe",
+	"repository": {
+		"url": "https://github.com/letsmoe/celestial-theme"
+	},
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Celestial Light (High Contrast)",
+        "uiTheme": "hc-light",
+        "path": "./themes/celestial-light-color-theme.json"
+      }
+    ]
+  }
+}
